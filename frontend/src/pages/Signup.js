@@ -26,7 +26,7 @@ function Signup() {
     }
 
     try {
-      const url = `http://localhost:8080/auth/signup`; // ✅ Local backend URL
+      const url = `https://authentication-system-wheat.vercel.app//auth/signup`; // ✅ Local backend URL
       const response = await fetch(url, {
         method: "POST",
         headers: {
