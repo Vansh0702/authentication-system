@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 
 // ✅ Allow your frontend URL here
 app.use(cors({
-    origin: 'https://your-frontend.vercel.app', // Replace with your deployed frontend URL
+    origin: 'https://authentication-system-ui.vercel.app', // Replace with your deployed frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
