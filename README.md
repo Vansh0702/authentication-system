@@ -1,67 +1,29 @@
-# Authentication System 🔒
+# Authentication System 🚀
 
-A complete **MERN Stack Authentication System** that supports **User Registration, Login, Logout, and Protected Routes** with JWT.
+A complete MERN stack authentication system with login, signup, JWT token-based protected routes, and product fetching functionality.
 
-This project was built with ❤️ by **Vansh**.
+## 🔗 Live Demo
+👉 [Click here to view the project](https://authentication-system-ui.vercel.app/login)
 
-## 🚀 Features
+## Features
 - User Signup
 - User Login
-- Password Encryption using **bcrypt**
-- JWT Authentication
 - Protected Routes
-- Frontend & Backend fully connected
-- Responsive and modern UI with **React Toastify** notifications
+- JWT Authentication
+- Logout
+- Product Fetching
 
----
+## Tech Stack
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
-## 🛠️ Tech Stack
-- **MongoDB** (Database)
-- **Express.js** (Backend Server)
-- **React.js** (Frontend)
-- **Node.js** (Runtime Environment)
-- **JWT** (Authentication)
-- **bcrypt** (Password Hashing)
-
----
-
-## 📂 Project Structure
-```plaintext
-authentication-system/
-│
-├── backend/
-│   ├── Models/
-│   ├── Routes/
-│   ├── Controllers/
-│   ├── Middlewares/
-│   ├── server.js
-│   └── .env
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-└── README.md
-⚙️ Setup Instructions
-Backend
-cd backend
-npm install
-npm start
-Make sure to configure your .env:
-
-env:--
-Copy
-Edit
-MONGO_CONN=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=8080
-
-Frontend
-cd frontend
-npm install
-npm start
+## How to Run Locally
+1. Clone the repository.
+2. Run `npm install` in both frontend and backend folders.
+3. Setup your `.env` in the backend:
+   ```env
+   MONGO_CONN=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   PORT=8080
