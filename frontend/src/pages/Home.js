@@ -23,7 +23,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://authentication-system-wheat.vercel.app//products"; // ✅ Update this to your local backend if not using vercel
+            const url = "https://authentication-system-wheat.vercel.app/products"; // ✅ Update this to your local backend if not using vercel
             const response = await fetch(url, {
                 headers: {
                     'Authorization': localStorage.getItem('token')
